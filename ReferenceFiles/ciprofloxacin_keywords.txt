@@ -1,0 +1,8 @@
+gyrA
+gyrB
+parC
+qnr
+oqx
+qep
+ciprofloxacin
+fluoroquinolone

@@ -1,0 +1,10 @@
+npm
+aad
+aac
+rmt
+ant
+aph
+str
+sph
+spc
+arm

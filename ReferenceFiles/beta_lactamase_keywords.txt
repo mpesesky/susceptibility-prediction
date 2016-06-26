@@ -1,0 +1,13 @@
+ClassA
+ClassB
+ClassC
+ClassD
+TEM
+SHV-LEN
+KPC
+CTXM
+NDM-CcrA
+DHA
+SubclassB1
+SubclassB2
+OXA

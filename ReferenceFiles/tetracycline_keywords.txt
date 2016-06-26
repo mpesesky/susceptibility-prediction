@@ -1,0 +1,4 @@
+tetA
+tetA-B
+tet_MFS_efflux
+tetD
