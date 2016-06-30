@@ -14,9 +14,22 @@ def import_list(keywordFile):
 def list_check(someList,annotation):
 	"""Check all elements of a list against an annotation for matches"""
 	for keyWord in someList:
-		if (keyWord.upper() in annotation.name.upper()) or (keyWord.upper() in annotation.description.upper()):
+		if (keyWord.upper() == annotation.name.split("|")[0].upper()):# or (keyWord.upper() in annotation.description.upper()):
 			return 1
 	return 0 
+
+def import_annotations_blast(annotationFile):
+	annotationHandle = open(annotationFile)
+	annotations = {}
+	resistancePositive = {}
+
+	for line in annotationHandle:
+		fields = line.split("\t")
+		currentGene = str(fields[0].split(":")[1].split("|")[0] + "|")
+		annotations[currentGene] = fields[1]
+		resistancePositive[currentGene] = 1
+	annotationHandle.close()
+	return annotations, resistancePositive
 
 def import_annotations_Mitch(annotationFile):
 	"""Read in the annotation file that Mitch's full genome assembly toolbox outputs, return a dictionary of gene_numbers to annotations."""
