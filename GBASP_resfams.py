@@ -1,7 +1,7 @@
 #! /usr/bin/env pyhton
 
-import Annotation_debug as Annotation
-import prediction_modules_debug as pm
+import Annotation
+import prediction_modules as pm
 import sys
 import os
 
@@ -11,8 +11,7 @@ organism = sys.argv[3] # The genus and species name of the bacterium being analy
 
 aaHandle = open(aaFile)
 
-DRUGSdb = os.environ['DRUGS_PATH'] # An environment variable that specifies the directory where all the DRUGS databases
-# reside. Must be set in advance.
+DRUGSdb = "ReferenceFiles/" # A path specifies the directory where all the DRUGS databases reside
 
 betaLactamProFile = DRUGSdb + "ExpectedProfiles.txt" # A file containing gene specific antibiotic resistances
 

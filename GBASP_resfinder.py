@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
-import Annotation_debug as Annotation
-import prediction_modules_debug as pm
+import Annotation
+import prediction_modules as pm
 import argparse as ap
 import os
 
@@ -20,7 +20,7 @@ if args.genes:
 	geneFile = os.path.splitext(os.path.basename(args.blastFile))[0] + ".genes"
 	geneHandle = open(geneFile,'w')
 
-DRUGSdb = os.environ['DRUGS_PATH']
+DRUGSdb = "ReferenceFiles/"
 
 betaLactamProFile = DRUGSdb + args.blacProfile
 
