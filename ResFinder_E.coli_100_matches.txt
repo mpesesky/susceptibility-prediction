@@ -1,0 +1,10 @@
+NODE_287_length_3536_cov_13.250566:gene_2551|GeneMark.hmm|152_aa|-|740|1198	dfrA1	152	152	474	1	152	100.00
+NODE_18_length_6154_cov_270.918274:gene_411|GeneMark.hmm|261_aa|+|2|787	strA	261	261	804	1	261	100.00
+NODE_1597_length_791_cov_12.673831:gene_4781|GeneMark.hmm|190_aa|-|150|722	spc	190	190	783	1	190	100.00
+NODE_128_length_7564_cov_16.963247:gene_1755|GeneMark.hmm|219_aa|+|274|933	catA1	219	219	660	1	219	100.00
+NODE_18_length_6154_cov_270.918274:gene_412|GeneMark.hmm|278_aa|+|787|1623	strB	278	278	837	1	278	100.00
+NODE_128_length_7564_cov_16.963247:gene_1761|GeneMark.hmm|202_aa|+|7009|7614	blaOXA-320	176	202	831	27	202	100.00
+NODE_2275_length_1346_cov_6.414562:gene_5560|GeneMark.hmm|264_aa|-|6|800	aph(3')-III	264	264	795	1	264	100.00
+NODE_935_length_735_cov_15.410884:gene_3895|GeneMark.hmm|247_aa|+|1|744	aadD	247	247	771	1	247	99.60
+NODE_15_length_32896_cov_37.724861:gene_352|GeneMark.hmm|286_aa|-|17021|17881	blaTEM-190	286	286	861	1	286	100.00
+NODE_228_length_620_cov_40.474194:gene_2420|GeneMark.hmm|223_aa|+|2|670	aadA1	223	223	792	1	223	100.00
