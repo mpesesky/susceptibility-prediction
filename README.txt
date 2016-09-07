@@ -12,6 +12,10 @@ have updated user interfaces, but are not commented, and are intended for use
 with the ResFinder_E.coli_100_matches.txt and CARD_E.coli_100_matches.txt
 example annotation files, respectively.
 
+The arff_converter.py script is used to convert the gene lists output by the 
+GBASP_*.py scripts to arff format so they can be used as inputs to Weka 3 for
+machine learning applications.
+
 The E.coli_100_proteins.faa is an example protein sequence file for the example
 isolate "E. coli 100" intended for use with all three scripts.
 
